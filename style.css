@@ -1,0 +1,45 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background:rgba(24, 24, 16, .2);
+
+    padding: 5em;
+    border-radius: 50px;
+    width: 300px;
+    max-width: 300px;
+    margin: 2em;
+}
+    
+    
+    .mask-custom {
+    background: rgba(24, 24, 16, .2);
+    border-radius: 2em;
+    backdrop-filter: blur(25px);
+    border: 5px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 7px 7px 7px rgba(46, 54, 68, 0.03);
+    }
+    button {
+        margin: 1em;
+        border-radius: 30%;
+        border: none;
+        height: 46px;
+        outline: none;
+        height: 30px;
+        width: 55px;
+        outline: none;
+        background: olive;
+        color: burlywood;
+        cursor: pointer;
+        transition: 0.2s ;
+    }
+    .submit-bar {
+ border: none ;
+ outline:none;
+ background: whitesmoke;
+ color: black;
+ font-family: inherit;
+ font-size: 130%;
+ width: calc(100% - 80%px);
+ text-decoration-color: black;
+ border-radius: 10%;
+    }
